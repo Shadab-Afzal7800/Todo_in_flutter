@@ -153,7 +153,11 @@ class _MyHomeState extends State<MyHome> {
   AppBar appBar_build() {
     return AppBar(
       elevation: 0,
+      centerTitle: true,
       backgroundColor: Color.fromARGB(255, 229, 229, 229),
+      title: CircleAvatar(
+        backgroundImage: AssetImage('assets/images/iconImage.jpg'),
+      ),
     );
   }
 }

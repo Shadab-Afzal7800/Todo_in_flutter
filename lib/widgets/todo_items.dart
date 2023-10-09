@@ -18,7 +18,7 @@ class ToDo extends StatelessWidget {
       child: ListTile(
         onTap: () => onTodoChanged(todo),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        tileColor: Colors.white,
+        tileColor: Colors.grey.shade50,
         leading: Icon(
           todo.isDOne == true ? Icons.check_box : Icons.check_box_outline_blank,
           color: Colors.blue,
